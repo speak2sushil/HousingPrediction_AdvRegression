@@ -30,9 +30,7 @@ Also, determine the optimal value of lambda for ridge and lasso regression.
 This repo contains a Jupyter note book that contains multilinear regression modeling along with a data set, a data dictionary, and answers to subjective questions related to the linear regression model.
 
 ## Conclusions
-- The test R-squared score of 0.8018 is relatively close to the training R-squared score of 0.846.
-  this suggests that your model is not overfitting (performing well on the training set but poorly on new data) 
-  and is providing a good balance between fit and generalization.
+- The model appears to be performing well, with low prediction errors (as reflected by the MSE), a strong linear relationship between actual and predicted values, and a high R-squared value indicating a good level of explained variance.Cross Validation is used to tune hyperparameter , ensuring that the model's performance is assessed across multiple subsets of the data
 
 ## Technologies Used
 - python 3.11 
@@ -41,15 +39,14 @@ This repo contains a Jupyter note book that contains multilinear regression mode
 - library - matplotlib
 - library - seaborn
 - library - sklearn
-- library - statsmodels
+
 
 ## Modeling Technique 
-- Model Representation
-- Objective Function
-- Coefficient Estimation
+- EDA
+- Imputation and Scaling
 - Model Evaluation
-- Assumptions Checking
 - Prediction
+- Cross Validation
 - Residual Analysis
 
 
